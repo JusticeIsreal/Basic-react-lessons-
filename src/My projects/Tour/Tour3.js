@@ -1,0 +1,18 @@
+import React from "react";
+import { useState } from "react";
+
+function Tour3({ id, name, description, deleteTour }) {
+  const [read, setRead] = useState(false);
+  return (
+    <>
+      <h3>{name}</h3>
+      <h5>
+        {read ? description : `${description.substring(0, 100)}...`}{" "}
+        <p onClick={() => setRead(!read)}>{read ? "Read more" : "Read less"}</p>
+      </h5>
+      <button onClick={() => deleteTour(id)}>DELETE</button>
+    </>
+  );
+}
+
+export default Tour3;

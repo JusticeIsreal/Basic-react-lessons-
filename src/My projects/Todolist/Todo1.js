@@ -15,13 +15,17 @@ function Todo1() {
     let newList = { id: new Date().getTime().toString(), title: inputVal };
     setList([newList, ...list]);
     setInputVal("");
+    setBoo(false);
   };
   const editList = (id, title) => {
     let newArray = list.filter((x) => x.id !== id);
     setList(newArray);
-    console.log(id);
-    console.log(title);
     setInputVal(title);
+    setBoo(true);
+  };
+  const deleteList = (id) => {
+    let newArray = list.filter((x) => x.id !== id);
+    setList(newArray);
   };
   return (
     <div>
@@ -40,10 +44,12 @@ function Todo1() {
             <div key={id}>
               <h1>{title}</h1>
               <button onClick={() => editList(id, title)}>edit</button>
+              <button onClick={() => deleteList(id)}>Delete</button>
             </div>
           );
         })}
       </div>
+      <p onClick={() => setList([])}>{list.length === 0 ? " " : "Clear All"}</p>
     </div>
   );
 }

@@ -31,7 +31,6 @@ function Reviews() {
 
   const random = () => {
     let newVal = Math.floor(Math.random() * Data.length);
-    // console.log(newVal);
     if (newVal === index) {
       newVal = index + 1;
     }
@@ -39,12 +38,15 @@ function Reviews() {
   };
 
   return (
-    <div key={id}>
+    <div key={id} className="review">
+      <h1>REVIEWS</h1>
       <h3>{name}</h3>
       <p>{description}</p>
-      <button onClick={() => forward()}>front</button>
-      <button onClick={() => backward()}>back</button>
-      <button onClick={() => random()}>random</button>
+      <div>
+        <button onClick={() => forward()}>front</button>
+        <button onClick={() => backward()}>back</button>
+        <button onClick={() => random()}>random</button>
+      </div>
     </div>
   );
 }

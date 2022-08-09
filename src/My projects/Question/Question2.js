@@ -4,16 +4,18 @@ import { useState } from "react";
 function Question2({ name, description }) {
   const [show, setShow] = useState(false);
   return (
-    <div>
-      <h2>{name}</h2>
-      <button
-        onClick={() => {
-          setShow(!show);
-        }}
-      >
-        {show ? "+" : "-"}
-      </button>
-      <p>{show ? description : ""}</p>
+    <div className="question2">
+      <div className="quest">
+        <h3>{name}</h3>
+        <button
+          onClick={() => {
+            setShow(!show);
+          }}
+        >
+          {show ? " + " : " - "}
+        </button>
+      </div>
+      <p>{show ? description : " "}</p>
     </div>
   );
 }

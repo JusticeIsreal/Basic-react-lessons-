@@ -1,0 +1,270 @@
+body {
+  height: 100vh;
+}
+// BIRTHDAY
+.birthdayCon {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+  h1,
+  h5 {
+    text-align: center;
+  }
+  button {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 1px solid rgba(128, 128, 128, 0.335);
+    height: 40px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .birthdayNames {
+    background-color: whitesmoke;
+    border: 1px solid rgba(128, 128, 128, 0.105);
+    padding: 10px;
+    border-radius: 20px;
+
+    .birth {
+      border-bottom: 1px solid rgba(128, 128, 128, 0.153);
+    }
+  }
+}
+
+// EXPERIMENTE
+.experienceCon {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+// FILTER
+.Filter1 {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+
+  .filterDetails {
+    background-color: whitesmoke;
+    border: 1px solid rgba(128, 128, 128, 0.105);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
+
+    .filterItem {
+      border: 1px solid rgba(128, 128, 128, 0.139);
+      background-color: rgba(189, 189, 251, 0.222);
+      border-radius: 10px;
+      width: 25%;
+      padding: 5px;
+
+      p {
+        word-break: break-all;
+      }
+    }
+  }
+  .FilterBtn {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+}
+
+// TODO
+.todoCon {
+  background-color: rgba(189, 189, 251, 0.222);
+  padding-top: 20px;
+  width: 90%;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  .errorCon {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+    input {
+      border: 2px solid red;
+      width: 100%;
+      height: 50px;
+      border: 1px solid rgba(128, 128, 128, 0.262);
+      border-radius: 10px;
+    }
+    button {
+      margin-top: 20px;
+      width: 150px;
+      height: 40px;
+      border: 1px solid rgba(128, 128, 128, 0.262);
+      border-radius: 5px;
+    }
+  }
+
+  .listCon {
+    border: 1px solid rgba(128, 128, 128, 0.262);
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+
+    .list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .txt {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.262);
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+
+        p {
+          display: flex;
+          flex-wrap: wrap;
+          word-break: break-all;
+        }
+      }
+      .btn {
+        width: 100px;
+        display: flex;
+
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+// PARAGRAPH
+.paragraph {
+  border: 2px solid red;
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+
+  .paragraphDetails {
+    background-color: whitesmoke;
+    border: 1px solid rgba(128, 128, 128, 0.105);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+}
+
+// QUESTION
+.question {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+
+  .question2 {
+    background-color: whitesmoke;
+    border: 1px solid rgba(128, 128, 128, 0.105);
+    border-radius: 10px;
+
+    .quest {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+
+      button {
+        height: 50%;
+        width: 50px;
+        font-size: 20px;
+        border: 1px solid rgba(128, 128, 128, 0.221);
+        border-radius: 5px;
+      }
+    }
+
+    p {
+      padding: 5px;
+    }
+  }
+}
+
+// REVIEW
+.review {
+  border: 2px solid red;
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+
+  p {
+    background-color: whitesmoke;
+    border: 1px solid rgba(128, 128, 128, 0.105);
+    padding: 10px;
+    border-radius: 20px;
+  }
+  div {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      width: 70px;
+      background-color: whitesmoke;
+      border: 1px solid rgba(128, 128, 128, 0.431);
+      border-radius: 5px;
+    }
+  }
+}
+
+// TOUR
+.tour {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+
+  .tour3 {
+    background-color: whitesmoke;
+    border: 1px solid rgba(128, 128, 128, 0.105);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    p {
+      color: royalblue;
+    }
+  }
+}

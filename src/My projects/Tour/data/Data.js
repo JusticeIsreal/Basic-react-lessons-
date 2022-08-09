@@ -25,7 +25,7 @@ export default [
     name: "foo4",
     role: "Engineer",
     description:
-      "lorem jhjheqjhgtjqh bjhbkjbqhtgb   hgrhjjhqgtkhqgjh b bhgrthjqbejhgbqjkhgb jgqhrgijhqberihgqei jhghrgihqegitgbq jhgrhgqejkhghjqe hgrhgqhghi eb grhfguhgrkiq hjagrihgleiqrgtilkq hgrhgqegrtkieq grhgiqkegr hgqrkhbjqherbgtjkqe jhgrkhgqtkhgqkehr ",
+      "lorem jhjheqjhgtjqh bjhbkjbqhtegrkhgqtkhgqkehr ",
   },
   {
     id: 5,
@@ -39,20 +39,20 @@ export default [
     name: "foo3",
     role: "software Engineer",
     description:
-      "lorem jhjheqjhgtjqh bjhbkjbqhtgb   hgrhjjhqgtkhqgjh b bhgrthjqbejhgbqjkhgb jgqhrgijhqberihgqei jhghrgihqegitgbq jhgrhgqejkhghjqe hgrhgqhghi eb grhfguhgrkiq hjagrihgleiqrgtilkq hgrhgqegrtkieq grhgiqkegr hgqrkhbjqherbgtjkqe jhgrkhgqtkhgqkehr ",
+      "lorem jhjgqhrgijhqbergrhgqejkhghjqe hgrhgqhghi eb grhfguhgrkiq hjagrihgleiqrgtilkq hgrhgqegrtkieq grhgiqkegr hgqrkhbjqherbgtjkqe jhgrkhgqtkhgqkehr ",
   },
   {
     id: 7,
     name: "foo4",
     role: "Engineer",
     description:
-      "lorem jhjheqjhgtjqh bjhbkjbqhtgb   hgrhjjhqgtkhqgjh b bhgrthjqbejhgbqjkhgb jgqhrgijhqberihgqei jhghrgihqegitgbq jhgrhgqejkhghjqe hgrhgqhghi eb grhfguhgrkiq hjagrihgleiqrgtilkq hgrhgqegrtkieq grhgiqkegr hgqrkhbjqherbgtjkqe jhgrkhgqtkhgqkehr ",
+      "lorem jhjheqjhgtjqh bjhbkhr ",
   },
   {
     id: 8,
     name: "foo5",
     role: "software",
     description:
-      "lorem jhjheqjhgtjqh bjhbkjbqhtgb   hgrhjjhqgtkhqgjh b bhgrthjqbejhgbqjkhgb jgqhrgijhqberihgqei jhghrgihqegitgbq jhgrhgqejkhghjqe hgrhgqhghi eb grhfguhgrkiq hjagrihgleiqrgtilkq hgrhgqegrtkieq grhgiqkegr hgqrkhbjqherbgtjkqe jhgrkhgqtkhgqkehr ",
+      "lorem jhjheqjhgtjqh bjhbkjbqhtgb   hqgjh b bhgrthjqbejhgbqjkhgb jgqhrgijhqberihgqei jhghrgihqegitgbq jhgrhgqejkhghjqe hgrhgqhghi eb grhfguhgrkiq hjagrihgleiqrgtilkq hgrhgqegrtkieq grhgiqkegr hgqrkhbjqherbgtjkqe jhgrkhgqtkhgqkehr ",
   },
 ];

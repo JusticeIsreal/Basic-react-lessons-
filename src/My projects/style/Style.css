@@ -1,0 +1,243 @@
+body {
+  height: 100vh;
+}
+
+.birthdayCon {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.birthdayCon h1,
+.birthdayCon h5 {
+  text-align: center;
+}
+.birthdayCon button {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  height: 40px;
+  margin-top: 20px;
+  width: 100%;
+}
+.birthdayCon .birthdayNames {
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.105);
+  padding: 10px;
+  border-radius: 20px;
+}
+.birthdayCon .birthdayNames .birth {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.153);
+}
+
+.experienceCon {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.Filter1 {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.Filter1 .filterDetails {
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.105);
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 20px;
+}
+.Filter1 .filterDetails .filterItem {
+  border: 1px solid rgba(128, 128, 128, 0.139);
+  background-color: rgba(189, 189, 251, 0.222);
+  border-radius: 10px;
+  width: 25%;
+  padding: 5px;
+}
+.Filter1 .filterDetails .filterItem p {
+  word-break: break-all;
+}
+.Filter1 .FilterBtn {
+  width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.todoCon {
+  background-color: rgba(189, 189, 251, 0.222);
+  padding-top: 20px;
+  width: 90%;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.todoCon .errorCon {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.todoCon form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.todoCon form input {
+  border: 2px solid red;
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.262);
+  border-radius: 10px;
+}
+.todoCon form button {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.262);
+  border-radius: 5px;
+}
+.todoCon .listCon {
+  border: 1px solid rgba(128, 128, 128, 0.262);
+  background-color: whitesmoke;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.todoCon .listCon .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todoCon .listCon .list .txt {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.262);
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.todoCon .listCon .list .txt p {
+  display: flex;
+  flex-wrap: wrap;
+  word-break: break-all;
+}
+.todoCon .listCon .list .btn {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraph {
+  border: 2px solid red;
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.paragraph .paragraphDetails {
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.105);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.question {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.question .question2 {
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.105);
+  border-radius: 10px;
+}
+.question .question2 .quest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.question .question2 .quest button {
+  height: 50%;
+  width: 50px;
+  font-size: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.221);
+  border-radius: 5px;
+}
+.question .question2 p {
+  padding: 5px;
+}
+
+.review {
+  border: 2px solid red;
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.review p {
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.105);
+  padding: 10px;
+  border-radius: 20px;
+}
+.review div {
+  display: flex;
+  justify-content: space-around;
+}
+.review div button {
+  width: 70px;
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.431);
+  border-radius: 5px;
+}
+
+.tour {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.tour .tour3 {
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.105);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.tour .tour3 p {
+  color: royalblue;
+}/*# sourceMappingURL=style.css.map */

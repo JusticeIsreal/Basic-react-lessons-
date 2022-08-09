@@ -16,12 +16,11 @@ function Filter1() {
       return;
     }
     let newList = Data.filter((newOne) => newOne.name === name);
-
     setProduct(newList);
   };
-
   return (
-    <div>
+    <div className="Filter1">
+      <h3>Filter Products</h3>
       <FilterBtn filterList={filterList} dynamicBtn={cat} />
       <Filter2 product={product} />
     </div>

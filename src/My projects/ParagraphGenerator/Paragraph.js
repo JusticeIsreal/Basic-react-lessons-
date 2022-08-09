@@ -19,7 +19,7 @@ function Paragraph() {
     setText(Data.slice(0, amount));
   };
   return (
-    <div>
+    <div className="paragraph">
       <form onSubmit={go}>
         <input
           type="number"
@@ -28,7 +28,7 @@ function Paragraph() {
         />
         <button type="submit"> GENERATE TEXT</button>
       </form>
-      <div>
+      <div className="paragraphDetails">
         {text.map((item, index) => {
           const { id, name, description } = item;
           return (

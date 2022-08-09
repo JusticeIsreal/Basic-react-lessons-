@@ -18,7 +18,7 @@ function Tour1() {
       </main>
     );
   }
-    return <Tour2 tour={tour} deleteTour={deleteTour } />;
+    return <Tour2 tour={tour} deleteTour={deleteTour} />;
 }
 
 export default Tour1;

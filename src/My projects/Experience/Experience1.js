@@ -11,7 +11,8 @@ export default function Experience1() {
   const { id, name, description } = jobs[value];
 
   return (
-    <div>
+    <div className="experienceCon">
+      <h3>EXPERIENCE FILTER</h3>
       {jobs.map((job, index) => {
         return (
           <button onClick={() => setValue(index)} key={job.id}>

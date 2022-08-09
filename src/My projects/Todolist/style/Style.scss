@@ -1,0 +1,45 @@
+body {
+  //   background-color: green;
+  height: 100vh;
+  border: 2px solid green;
+}
+
+.todoCon {
+  padding-top: 20px;
+  width: 90%;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  .errorCon {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .listCon {
+    border: 1px solid rgba(128, 128, 128, 0.262);
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+
+    .list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .btn {
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

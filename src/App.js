@@ -10,6 +10,7 @@ import Filter from "./My projects/Filter/Filter1"
 import Filter1 from "./My projects/Filter/Filter1";
 import Experience1 from "./My projects/Experience/Experience1";
 import Paragraph from "./My projects/ParagraphGenerator/Paragraph"
+import Todo1 from "./My projects/Todolist/Todo1";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <Question1 /> */}
       {/* <Filter1 /> */}
       {/* <Experience1 /> */}
-      <Paragraph />
+      {/* <Paragraph /> */}
+      <Todo1 />
     </div>
   );
 }

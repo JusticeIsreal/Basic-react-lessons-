@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Filter2 from "./Filter2";
 import FilterBtn from "./FilterBtn";
-import Data from "/Users/justiceisrealagbonma/Desktop/TECH TUTORIAL/PROJECTS/REACT/dashboard/dashboard_design/src/My projects/Tour/data/Data.js";
+import Data from "../Tour/data/Data";
 
 const dynamicFilter = ["All", ...new Set(Data.map((item) => item.name))];
 

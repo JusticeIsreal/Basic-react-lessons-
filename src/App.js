@@ -11,6 +11,7 @@ import Filter1 from "./My projects/Filter/Filter1";
 import Experience1 from "./My projects/Experience/Experience1";
 import Paragraph from "./My projects/ParagraphGenerator/Paragraph";
 import Todo1 from "./My projects/Todolist/Todo1";
+import MenuBar from "./My projects/MenuBar/MenuBar";
 import style from "./My projects/style/Style.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       {/* <TodoListWithuseStateAnduseRef /> */}
 
       <WithuseStateAnduseRef />
+      <MenuBar />
       <ReminderFunc />
       <Tour1 />
       <Reviews />

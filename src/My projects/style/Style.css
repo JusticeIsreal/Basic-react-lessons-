@@ -240,4 +240,36 @@ body {
 }
 .tour .tour3 p {
   color: royalblue;
+}
+
+.menuBar {
+  background-color: rgba(189, 189, 251, 0.222);
+  border: 1px solid rgba(128, 128, 128, 0.335);
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.menuBar .topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuBar .topbar button {
+  height: 50px;
+  width: 100px;
+  border: 1px solid rgba(128, 128, 128, 0.203);
+  border-radius: 10px;
+}
+.menuBar nav {
+  background-color: whitesmoke;
+  border: 1px solid rgba(128, 128, 128, 0.066);
+  border-radius: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.menuBar nav li {
+  list-style: none;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
